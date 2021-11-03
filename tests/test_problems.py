@@ -1,6 +1,6 @@
 import pytest as pytest
 
-from enigma.hypotheses import Hypotheses
+from posterior.hypotheses import Hypotheses
 
 
 def test__problems__dungeons_and_dragons():

@@ -5,7 +5,7 @@ from typing import Callable, Hashable, Iterable, List, Mapping, Optional, Union,
 
 from tabulate import tabulate
 
-from enigma.distributions import CumulativeDistribution
+from posterior.distributions import CumulativeDistribution
 
 Outcome = Union[str, float, int]
 Probability = float

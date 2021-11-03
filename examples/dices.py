@@ -1,4 +1,4 @@
-from enigma.hypotheses import Hypotheses
+from posterior.hypotheses import Hypotheses
 
 
 def likelihood(hypothesis: float, data: float) -> float:

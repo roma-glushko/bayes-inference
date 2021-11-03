@@ -1,4 +1,4 @@
-# Enigma
+# Posterior
 
 A lightweight framework for Bayes's inference.
 
@@ -16,19 +16,18 @@ Problem:
     What is the probability that it came from Bowl 1?
 """
 
-from enigma.hypotheses import Hypotheses
-
+from posterior.hypotheses import Hypotheses
 
 cookie_likelihood = {
-        "bowl1": {
-            "chocolate": 1 / 4, 
-            "vanilla": 3 / 4
-        },
-        "bowl2": {
-            "chocolate": 1 / 2,
-            "vanilla": 1 / 2,
-        },
-    }
+    "bowl1": {
+        "chocolate": 1 / 4,
+        "vanilla": 3 / 4
+    },
+    "bowl2": {
+        "chocolate": 1 / 2,
+        "vanilla": 1 / 2,
+    },
+}
 
 hypotheses = Hypotheses(["bowl1", "bowl2"], likelihood=cookie_likelihood)
 hypotheses.evaluate("vanilla")

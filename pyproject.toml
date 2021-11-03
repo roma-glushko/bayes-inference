@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "enigma"
+name = "posterior"
 version = "0.1.0"
-description = ""
+description = "A lightweight framework for Bayes's inference"
 authors = ["Roman Glushko <roman.glushko.m@gmail.com>"]
 license = "MIT"
 

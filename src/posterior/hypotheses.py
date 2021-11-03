@@ -2,7 +2,7 @@ from collections import Callable, MutableMapping
 from numbers import Number
 from typing import Any, Dict, Iterable, List, Tuple, Union
 
-from enigma.random_variables import Outcome, Probability, RandomVariable
+from posterior.random_variables import Outcome, Probability, RandomVariable
 
 Hypothesis = Union[str, float, int]
 
