@@ -1,3 +1,3 @@
 # Enigma
 
-A lightweight framework for Bayes's inference.
+A lightweight framework for Hypotheses's inference.
